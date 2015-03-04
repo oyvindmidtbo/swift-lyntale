@@ -22,4 +22,7 @@ personer += ["Øyvind"] // ["Per", "Pål", "Øyvind"]
 personer += ["Martin", "Anders"] // ["Per", "Pål", "Øyvind", "Martin", "Anders"]
 personer[1..<4] = ["Mette", "Hanne", "Lise"] // ["Per", "Mette", "Hanne", "Lise", "Anders"]
 personer
-//personer[1] = "Petter"
+personer[1] = "Petter"
+
+var 😄 = "Rått, emojis i koden!😍"
+println(😄) // "Rått, emojis i koden!😍"
